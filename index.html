@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Music Player</title>
+      <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+      <div id="container">
+          <div id="audio-img">
+              <img class="cover">
+          </div>
+          <div id="audio-player">
+            <div id="audio-player">
+              <div id="audio-info">
+                <span class="artist"></span> - <span class="title"></span>
+              </div>
+               <input id="volume" type="range" min="0" max="10" value="5" />
+               <br>
+               <div id="audio-buttons">
+               <span>
+                <button id="prev"></button>
+                <button id="play"></button>
+                <button id="pause"></button>
+                <button id="stop"></button>
+                <button id="next"></button>
+                </span>
+               </div>
+              <div class="clearfix"></div>
+              <div id="tracker">
+                  <div id="progress-bar">
+                      <span id="progress">
+                      </span>
+                  </div>
+                  <span id="duration"></span>
+              </div>
+              <div class="clearfix"></div>
+              <ul id="playlist">
+                    <li song="Chainsmokers- All We Know.mp3" cover= "cover1.jpg" artist="Chainsmokers">All We Know.mp3</li>
+                    <li song="Christina Perri- A Thousand Years.mp3" cover= "cover1.jpg" artist="Christina Perri">A Thousand Years.mp3</li>
+
+                    <li song="Ed Sheeran- Kiss Me.mp3" cover= "cover1.jpg" artist="Ed Sheeran">Kiss Me.mp3</li>
+                    <li song="Katy Perry- Unconditionally.mp3" cover= "cover1.jpg" artist="Katy Perry">Unconditionally.mp3</li>
+                    <li song="Selena Gomez- Love Song.mp3" cover= "cover1.jpg" artist="Selena gomez">Love Song.mp3</li>
+                    <li song="Shakira- Empire.mp3" cover= "cover1.jpg" artist="Shakira">Empire.mp3</li>
+                    <li song="Shakira- Get It Started.mp3" cover= "cover1.jpg" artist="Shakira">Get It Started.mp3</li>
+
+                    <li song="Shakira- Underneath your Clothes.mp3" cover= "cover1.jpg" artist="Shakira">Underneath your Clothes.mp3</li>
+
+
+                    <li song="Taylor Swift- Wildest Dreams.mp3" cover= "cover1.jpg" artist="Taylor Swift">Wildest Dreams.mp3</li>
+                    <li song="Zayn- PillowTalk.mp3" cover= "cover1.jpg" artist="Zayn">PillowTalk.mp3</li>
+                      <li song="Zella Day- Hypnotic.mp3" cover= "cover1.jpg" artist="Zella day">Hypnotic.mp3</li>
+              </ul>
+          </div>
+      </div>
+      <script src="js/jquery.js"></script>
+      <script src="js/main.js"></script>
+  </body>
+</html>
